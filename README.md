@@ -1,6 +1,6 @@
 # Bitcoin Domino
 
-**A visualisation of the adoption of Bitcoin across the world.**
+A visualisation of the adoption of Bitcoin across the world.
 
 ## Context
 
