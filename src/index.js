@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Map from './components/Map/Map';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Map />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
