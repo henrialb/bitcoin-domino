@@ -8,11 +8,11 @@ import "./styles.scss";
 
 const App = () => {
   return (
-    <main>
+    <div id="wrapper">
       <Header />
       <Map />
       <Footer />
-    </main>
+    </div>
   )
 }
 
