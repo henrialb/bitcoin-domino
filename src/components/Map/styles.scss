@@ -6,13 +6,13 @@
 html {
   font-family: system-ui, sans-serif;
   font-size: 1.25rem;
+  color: #cdcdcd;
 }
 
 body {
   margin: 0;
   padding: 0 1.5rem;
   background: #000;
-  color: #f0f0f0;
 }
 
 svg {
@@ -30,7 +30,25 @@ h1 {
 
 .site-desc {
   text-align: center;
-  font-weight: 200;
   font-size: 0.85rem;
-  color: #cdcdcd;
+  font-weight: 200;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 200;
+  color: #838383;
+
+  a {
+    font-weight: 400;
+    color: #838383;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #989898;
+  }
 }

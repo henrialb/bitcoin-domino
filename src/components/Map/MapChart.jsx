@@ -25,8 +25,6 @@ const projection = geoCylindricalStereographic()
 const MapChart = ({ setTooltipContent }) => {
   return (
     <>
-      <h1>BITCOIN DOMINO</h1>
-      <p className="site-desc">Tracking the adoption of Bitcoin by nation-states across the world – one domino piece at a time.</p>
       <ComposableMap viewBox="0 0 800 410" data-tip="" projection={projection} >
         <Geographies geography={geoUrl}>
           {({ geographies }) =>
