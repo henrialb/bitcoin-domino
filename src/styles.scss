@@ -15,7 +15,7 @@ body {
   background: #000;
 }
 
-main {
+#wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -34,7 +34,7 @@ h1 {
   text-align: center;
 }
 
-.site-desc {
+.subtitle {
   text-align: center;
   font-size: 0.85rem;
   font-weight: 200;

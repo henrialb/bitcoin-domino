@@ -6,10 +6,10 @@ import MapChart from "./MapChart";
 const Map = () => {
   const [content, setContent] = useState("");
   return (
-    <>
+    <main>
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
-    </>
+    </main>
   )
 }
 

@@ -11,7 +11,7 @@ const Footer = () => {
       <p>
         Tips and contributions towards running costs appreciated. <a data-tip='' data-for='test' href={`bitcoin:` + btcAddress}>{btcAddress}</a>
         <br/>
-        <a href="mailto:contact@bitcoindomino.com">Contact</a> · <a href="https://twitter.com/drooghen" target="_blank">Twitter</a>
+        <a href="mailto:contact@bitcoindomino.com">Contact</a> · <a href="https://twitter.com/bitcoin_domino" target="_blank">Twitter</a>
       </p>
 
       <ReactTooltip id='test' place="top" type="light" effect="solid" delayHide={300}>
