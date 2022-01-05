@@ -36,9 +36,8 @@ const MapChart = ({ setTooltipContent }) => {
                   const { NAME } = geo.properties
                   setTooltipContent(`${NAME}`)
                 }}
-                onMouseLeave={() => {
-                  setTooltipContent("");
-                }}
+                onMouseLeave={() => { setTooltipContent("") }}
+                onClick={() => { setTooltipContent("") }}
                 style={{
                   default: {
                     fill: geo.properties.ADOPTION === 'legal tender' ? '#F7931A' : '#666',
