@@ -9451,7 +9451,7 @@
   ],
   "transform": {
     "scale": [0.01434548714883443, 0.008335499711981569],
-    "translate": [-190, -100]
+    "translate": [-190, -90]
   },
   "objects": {
     "ne_110m_admin_0_countries": {
