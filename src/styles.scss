@@ -1,10 +1,7 @@
-@font-face {
-  font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Regular.woff") format("woff");
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;1,500&display=swap");
 
 html {
-  font-family: system-ui, sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 1.25rem;
   color: #cdcdcd;
 }
@@ -21,36 +18,44 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.6em;
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 200;
+  color: #cdcdcd;
+}
+
 svg {
   display: inline-block;
   vertical-align: middle;
   outline: none;
 }
 
-h1 {
-  font-family: "JetBrains";
-  font-size: 2.5em;
-  color: #f0f0f0;
-  text-align: center;
-}
-
-.subtitle {
-  text-align: center;
-  font-size: 0.85rem;
-  font-weight: 200;
+.__react_component_tooltip {
+  font-family: "Helvetica", sans-serif;
 }
 
 footer {
   margin-top: auto;
-  padding-bottom: 15px;
   text-align: center;
   font-size: 0.65rem;
   font-weight: 200;
   color: #838383;
+  padding-bottom: 5px;
   flex-shrink: 0;
 
   a {
-    font-weight: 400;
+    font-weight: 300;
     color: #838383;
     text-decoration: none;
   }
