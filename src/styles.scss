@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Open+Sans:wght@300;400&display=swap");
 
 html {
-  font-family: "Kanit", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   color: #cdcdcd;
 }
@@ -30,8 +30,8 @@ h1 {
 
 .subtitle {
   text-align: center;
-  font-size: 0.82rem;
-  font-weight: 200;
+  font-size: 0.78rem;
+  font-weight: 300;
   color: #cdcdcd;
 }
 
@@ -48,14 +48,13 @@ svg {
 footer {
   margin-top: auto;
   text-align: center;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 200;
   color: #838383;
-  padding-bottom: 5px;
   flex-shrink: 0;
 
   a {
-    font-weight: 300;
+    font-weight: 400;
     color: #838383;
     text-decoration: none;
   }
