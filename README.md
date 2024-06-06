@@ -2,6 +2,8 @@
 
 A visualisation of the adoption of Bitcoin across the world.
 
+**_This was a fun experiment that I am no longer going to maintain, so I am archiving this repository._**
+
 ## Context
 
 On 7th September 2021, El Salvador's [Bitcoin Law](https://en.wikipedia.org/wiki/Bitcoin_Law) took effect, making it the first country in the world to recognise Bitcoin as legal tender.
